@@ -1,0 +1,87 @@
+.App {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-image: url("../img/bgImg-2.jpg");
+    background-size: cover;
+    background-origin: inherit;
+    background-repeat: no-repeat, no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    font-family: 'Asap', sans-serif;
+}
+#main {
+    box-sizing: border-box;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+#icon {
+    position: absolute;
+    top: 70vh;
+    left: 2vw;
+    width: 20vh;
+    height: 20vh;
+    background: url("../img/climber.png");
+    background-position: center;
+    background-repeat: no-repeat,no-repeat;
+    background-size: contain;
+
+}
+
+h1,
+h2,
+h3,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+#initial,
+#list,
+#result {
+    height: 100%;
+    width: 80%;
+    background-color: rgb(51, 58, 73);
+    color: rgb(170, 185, 207);
+    overflow-y: auto;
+
+}
+#list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#after {
+    width: 0;
+    height: 0;
+    border-top: 38vh solid rgb(51, 58, 73);
+    border-right: 50px solid transparent;
+    border-bottom: 38vh solid rgb(51, 58, 73);
+}
+#list::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+#list::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+#list::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+#list > :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+#initial > :nth-child(2) {
+    width: 80%;
+}

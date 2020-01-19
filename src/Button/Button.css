@@ -1,0 +1,20 @@
+button {
+    background-color: rgba(234,86,53);
+    padding: 1.5em;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: 'Asap', sans-serif;
+    font-weight: 900;
+    font-size: 1em;
+
+}
+button:hover {
+    background-color: rgb(170, 185, 207);
+    color: rgb(0,0,0);
+}
+button:focus {
+    outline: 0;
+}

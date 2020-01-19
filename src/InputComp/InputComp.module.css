@@ -1,0 +1,99 @@
+.false {
+    color: rgb(255, 208, 0);
+    text-shadow: 2px 2px 4px rgb(212, 45, 45);
+
+}
+.true {
+    box-shadow: none;
+
+}
+
+form > label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.InputComp {
+    padding: 10px;
+}
+.noInputComp {
+    display: none;
+}
+
+.InputAnswer {
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    height: 35px;
+    width: 180px;
+}
+.InputAnswer:hover {
+    background-color: rgb(72, 82, 102);
+}
+
+.InputAnswer label {
+    position: relative;
+    left: 5px;
+    bottom: 2px;
+}
+
+.InputAnswer input {
+    box-shadow: 5px 5px 15px -2px rgb(31, 35, 44);
+    background: rgb(187, 200, 226);
+    height: 20px;
+
+}
+.InputAnswer input[type='range'] {
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    margin-right: 5px;
+}
+.InputAnswer input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    background: rgba(234,86,53);
+    cursor: pointer;
+    margin-right: 5px;
+}
+.InputAnswer:hover input[type='range']::-webkit-slider-thumb {
+    background: rgb(229, 232, 236);
+}
+
+.InputAnswer input[type=radio],
+[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    position: relative;
+    color: #666;
+    width: 20px;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 7px;
+    margin-top: 0;
+    box-shadow: 5px 5px 15px -2px rgb(31, 35, 44);
+}
+.InputAnswer input[type=radio]:checked::before,
+[type=checkbox]:checked::before {
+    position: absolute;
+    font: 15px 'Open Sans', sans-serif;
+    left: 6px;
+    top: 1px;
+    font-weight: bold;
+    content: '\02143';
+    transform: rotate(40deg);
+    color: rgb(240, 240, 240);
+}
+.InputAnswer input[type=radio]:checked,
+[type=checkbox]:checked {
+    background-color: rgba(234,86,53);
+}

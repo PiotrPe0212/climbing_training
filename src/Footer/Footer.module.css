@@ -1,0 +1,15 @@
+footer {
+    margin: 0;
+    padding: 0;
+    height: 10%;
+    box-sizing: border-box;
+    background-color: rgba(234,86,53);
+
+}
+footer::before {
+    display: flex;
+    content: "";
+    width: 40%;
+    border-top: 5vh solid rgba(51, 58, 73);
+    border-right: 40vw solid transparent;
+}
