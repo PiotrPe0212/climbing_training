@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/climbing_training/static/css/main.b599a6fd.chunk.css",
+    "main.js": "/climbing_training/static/js/main.302f2185.chunk.js",
+    "main.js.map": "/climbing_training/static/js/main.302f2185.chunk.js.map",
+    "runtime-main.js": "/climbing_training/static/js/runtime-main.06576d16.js",
+    "runtime-main.js.map": "/climbing_training/static/js/runtime-main.06576d16.js.map",
+    "static/js/2.18d2ac47.chunk.js": "/climbing_training/static/js/2.18d2ac47.chunk.js",
+    "static/js/2.18d2ac47.chunk.js.map": "/climbing_training/static/js/2.18d2ac47.chunk.js.map",
+    "index.html": "/climbing_training/index.html",
+    "precache-manifest.d9844e486a7a12a446c17254c7cc8f7d.js": "/climbing_training/precache-manifest.d9844e486a7a12a446c17254c7cc8f7d.js",
+    "service-worker.js": "/climbing_training/service-worker.js",
+    "static/css/main.b599a6fd.chunk.css.map": "/climbing_training/static/css/main.b599a6fd.chunk.css.map",
+    "static/js/2.18d2ac47.chunk.js.LICENSE": "/climbing_training/static/js/2.18d2ac47.chunk.js.LICENSE",
+    "static/media/App.css": "/climbing_training/static/media/climber.0073b9e0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06576d16.js",
+    "static/js/2.18d2ac47.chunk.js",
+    "static/css/main.b599a6fd.chunk.css",
+    "static/js/main.302f2185.chunk.js"
+  ]
+}
