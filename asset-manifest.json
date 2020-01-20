@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/PiotrPe0212/climbing_training.git/static/css/main.ac7ca289.chunk.css",
+    "main.js": "/PiotrPe0212/climbing_training.git/static/js/main.472c297b.chunk.js",
+    "main.js.map": "/PiotrPe0212/climbing_training.git/static/js/main.472c297b.chunk.js.map",
+    "runtime-main.js": "/PiotrPe0212/climbing_training.git/static/js/runtime-main.44344ffe.js",
+    "runtime-main.js.map": "/PiotrPe0212/climbing_training.git/static/js/runtime-main.44344ffe.js.map",
+    "static/js/2.8d364e1f.chunk.js": "/PiotrPe0212/climbing_training.git/static/js/2.8d364e1f.chunk.js",
+    "static/js/2.8d364e1f.chunk.js.map": "/PiotrPe0212/climbing_training.git/static/js/2.8d364e1f.chunk.js.map",
+    "index.html": "/PiotrPe0212/climbing_training.git/index.html",
+    "precache-manifest.5eb578dc714791f6fa609911c5f417c1.js": "/PiotrPe0212/climbing_training.git/precache-manifest.5eb578dc714791f6fa609911c5f417c1.js",
+    "service-worker.js": "/PiotrPe0212/climbing_training.git/service-worker.js",
+    "static/css/main.ac7ca289.chunk.css.map": "/PiotrPe0212/climbing_training.git/static/css/main.ac7ca289.chunk.css.map",
+    "static/js/2.8d364e1f.chunk.js.LICENSE": "/PiotrPe0212/climbing_training.git/static/js/2.8d364e1f.chunk.js.LICENSE",
+    "static/media/App.css": "/PiotrPe0212/climbing_training.git/static/media/_DSC8125.094e225c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44344ffe.js",
+    "static/js/2.8d364e1f.chunk.js",
+    "static/css/main.ac7ca289.chunk.css",
+    "static/js/main.472c297b.chunk.js"
+  ]
+}
